@@ -1,0 +1,134 @@
+body {
+    color: seashell;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+}
+
+body p, figcaption {
+    font-size: 22px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid seashell;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+nav li {
+    display: inline;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#logo {
+    position: fixed;
+    left: 10px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+
+nav li a:link {
+    color: seashell;
+}
+
+nav li a:hover {
+    color: lightcoral;
+}
+
+.under-section-margin {
+    margin-top: 50px;
+}
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/img-mission-background.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#mission-text {
+    width: 100%;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#mission-text h2, #mission-text h4{
+    margin: 10px 0;
+}
+
+#featured-tea {
+    width: 1000px;
+}
+
+#image-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#image-flex figure {
+    margin: 15px;
+}
+
+#image-flex figure img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("../images/img-locations-background.webp");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#locations h2 {
+    margin: 0px;
+    position: relative;
+}
+
+.location-item-flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    justify-content: center;
+}
+
+.location {
+    flex-basis: 300px;
+    margin: 15px 20px;
+    background-color: black;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+}
