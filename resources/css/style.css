@@ -5,7 +5,7 @@ body {
     text-align: center;
 }
 
-body p, figcaption {
+body p, figcaption, a {
     font-size: 22px;
 }
 
@@ -40,14 +40,6 @@ nav li {
     height: 69px;
     display: flex;
     align-items: center;
-}
-
-nav li a:link {
-    color: seashell;
-}
-
-nav li a:hover {
-    color: lightcoral;
 }
 
 .under-section-margin {
@@ -131,4 +123,16 @@ nav li a:hover {
 #copyright {
     text-align: left;
     margin-left: 20px;
+}
+
+nav li a:link {
+    color: seashell;
+}
+
+nav li a:visited {
+    color: seashell;
+}
+
+nav li a:hover {
+    color: lightcoral;
 }
